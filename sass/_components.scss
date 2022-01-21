@@ -1,14 +1,44 @@
 /*----------------------------
-      section ???
+      layout
  ----------------------------*/
+  body { 
+    display: flex;
+    justify-content: center;;
+  }
   
-  
-  
+  .card {
+    max-width: 311px;
+    margin: 85px auto 78px;
+
+  }
+
 /*----------------------------
-      section ???
+      info section 
 ----------------------------*/
   
-  
+  .info {
+    text-align: center;
+
+    &__heading {
+      font-size: 24px;
+      line-height: 36px;
+      letter-spacing: 0.17px;
+      font-weight: 600;
+      color: $dark-blue ;
+
+    }
+    &__title {
+      display: block;
+      font-weight: 200;
+      color: $dark-blue;
+    }
+
+    &__paragraph{ 
+      line-height: 25px;
+      letter-spacing: 0.1px;
+      color: $grayish-blue;
+    }
+  }
 
   
   
