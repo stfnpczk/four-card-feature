@@ -383,6 +383,10 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 100vh;
   background-color: #fafafa;
 }
 
@@ -435,7 +439,7 @@ body {
 @media only screen and (min-width: 1440px) {
   .info__paragraph {
     max-width: 540px;
-    margin: 0 auto;
+    margin: 1.1rem auto;
   }
 }
 
@@ -547,4 +551,10 @@ body {
   -ms-flex-item-align: end;
       align-self: flex-end;
   margin-top: auto;
+}
+
+@media only screen and (min-width: 1440px) {
+  .features__icon {
+    width: 64px;
+  }
 }
