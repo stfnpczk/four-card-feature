@@ -4,18 +4,18 @@
 body {
   display: flex;
   justify-content: center;
-  align-items: center;
+  // align-items: center;
   min-height: 100vh;
   background-color: hsla(0, 0%, 98%, 1);
 }
 
 .card {
-  max-width: 311px;
-  // max-width: 450px;
-  margin: 85px 78px;
+  max-width: 19.4375rem;
+  // max-width: 28.125rem;
+  margin: 5.625rem 4.875rem;
 
-  @media only screen and (min-width: 1440px) {
-    max-width: 1110px;
+  @media only screen and (min-width: 1150px) {
+    max-width: 69.375rem;
   }
 }
 
@@ -27,16 +27,16 @@ body {
   text-align: center;
 
   &__heading {
-    font-size: 24px;
-    line-height: 36px;
-    letter-spacing: 0.17px;
+    font-size: 1.5rem;
+    line-height: 2.25rem;
+    letter-spacing: 0.0106rem;
     font-weight: 600;
     color: $dark-blue;
 
-    @media only screen and (min-width: 1440px) {
-      font-size: 36px;
-      line-height: 54px;
-      letter-spacing: 0.25px;
+    @media only screen and (min-width: 1150px) {
+      font-size: 2.25rem;
+      line-height: 3.375rem;
+      letter-spacing: 0.0156rem;
     }
   }
   &__title {
@@ -46,52 +46,52 @@ body {
   }
 
   &__paragraph {
-    line-height: 25px;
-    letter-spacing: 0.1px;
+    line-height: 1.5625rem;
+    letter-spacing: 0.0063rem;
     color: $grayish-blue;
 
-    @media only screen and (min-width: 1440px) {
-      max-width: 540px;
+    @media only screen and (min-width: 1150px) {
+      max-width: 33.75rem;
       margin: 1.1rem auto;
     }
   }
 }
 
 .features {
-  margin: 76px 0 0;
+  margin: 4.75rem 0 0;
   display: flex;
   flex-direction: column;
-  gap: 25px;
+  gap: 1.5625rem;
 
-  @media only screen and (min-width: 1440px) {
+  @media only screen and (min-width: 1150px) {
     flex-direction: row;
-    margin: 64px 0 0;
-    gap: 30px;
+    margin: 4rem 0 0;
+    gap: 1.875rem;
   }
 
   &__feature {
     display: flex;
     flex-direction: column;
     background-color: hsla(0, 0%, 100%, 1);
-    border-radius: 4px;
-    box-shadow: 0px 0.9375rem 30px -11px hsla(213, 47%, 67%, 0.5);
-    height: 166px;
-    padding: 24.45px 28px 28px 28px;
-    border-top: 3.55px solid;
+    border-radius: 0.25rem;
+    box-shadow: 0rem 0.9375rem 1.875rem -0.6875rem hsla(213, 47%, 67%, 0.5);
+    height: 10.375rem;
+    padding: 1.5281rem 1.75rem 1.75rem 1.75rem;
+    border-top: 0.2219rem solid;
 
-    @media only screen and (min-width: 1440px) {
-      width: 286px;
-      height: 186px;
-      border-top: 4px solid;
-      border-radius: 5px;
-      padding: 28px 32px 32px 32px ;
+    @media only screen and (min-width: 1150px) {
+      width: 17.875rem;
+      height: 11.625rem;
+      border-top: 0.25rem solid;
+      border-radius: 0.3125rem;
+      padding: 1.75rem 2rem 2rem 2rem ;
     }
   }
 
   &__feature--cyan {
     border-top-color: $cyan;
 
-    @media only screen and (min-width: 1440px) {
+    @media only screen and (min-width: 1150px) {
       align-self: center;
     }
     
@@ -99,9 +99,9 @@ body {
 
   &__feature--red {
     border-top-color: $red;
-    margin-bottom: 25px;
-    @media only screen and (min-width: 1440px) {
-      margin-bottom: 30px;
+    margin-bottom: 1.5625rem;
+    @media only screen and (min-width: 1150px) {
+      margin-bottom: 1.875rem;
     }
   }
 
@@ -113,32 +113,33 @@ body {
   &__feature--blue {
     border-top-color: $blue;
 
-    @media only screen and (min-width: 1440px) {
+    @media only screen and (min-width: 1150px) {
       align-self: center;
     }
   }
 
   &__heading {
-    font-size: 20px;
-    line-height: 30px;
+    font-size: 1.25rem;
+    line-height: 1.875rem;
     font-weight: 600;
+    color: $dark-blue;
   }
 
   &__text {
-    font-size: 13px;
-    line-height: 23px;
-    letter-spacing: 0.09px;
+    font-size: 0.8125rem;
+    line-height: 1.4375rem;
+    letter-spacing: 0.0056rem;
     color: $grayish-blue;
-    margin: 8px 0 0;
+    margin: 0.5rem 0 0;
   }
 
   &__icon {
-    width: 57px;
+    width: 3.5625rem;
     align-self: flex-end;
     margin-top: auto;
 
-    @media only screen and (min-width: 1440px) {
-      width: 64px;
+    @media only screen and (min-width: 1150px) {
+      width: 4rem;
     }
   }
 }
